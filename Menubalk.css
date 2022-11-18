@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica;
+}
+
+.logo {
+	height: 50px;
+}
+
+.navbar { 
+	display: flex;
+	justify-content: space-between; 
+	height: 70px;
+	align-items: center;
+	box-shadow: 0 1px 8px #ddd;
+}
+
+.item {
+	padding: 0 20px;
+	list-style: none;
+}
+
+.item > a {
+	Text-decoration: none;
+	color: black;
+	transition: all 5.0s ease 0s;
+}
+
+.item > a:hover {
+	color: blue;
+}
+
+ul { 
+	display: flex;
+	justify-content: space-between;
+}
