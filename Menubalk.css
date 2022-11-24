@@ -17,16 +17,15 @@ body {
 
 .navbar { 
 	display: flex;
-	justify-content: space-around; 
 	height: 70px;
 	align-items: center;
 	box-shadow: 0 1px 8px #36393F;
 	background-color: #36393F;
-	width: 100%
+	width: 100%;
 }
 
 .item {
-	padding: 0 90px;
+	padding: 0% 60%;
 	list-style: none;
 	background-color: #36393F;
 }
