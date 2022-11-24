@@ -52,7 +52,7 @@ ul {
 #supergrond {
 	display: flex;
 	flex-direction: column;
-	background-image: url:(images/achtergrond1.GIF);
+	background-image: url(images/achtergrond1.GIF);
 	align-items: center;
 }
 /*blokje zodat de titel niet tegen de navbar aanstaat*/
