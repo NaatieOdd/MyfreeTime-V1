@@ -43,16 +43,11 @@ body {
 	background-color: #36393F;
 }
 
-ul { 
-	display: flex;
-	justify-content: space-between;
-	background-color: #36393F;
-}
 /*achtergrond voor achter de tekst*/
 #supergrond {
 	display: flex;
 	flex-direction: column;
-	background-image: url(images/achtergrond1.GIF);
+	background-image: url(images/achtergrond1.gif);
 	align-items: center;
 }
 /*blokje zodat de titel niet tegen de navbar aanstaat*/
