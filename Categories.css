@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	color: white;
+}
+/*Alle onderdelen van de navigatie bar*/
+.navbar { 
+	display:flex;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #36393F;
+	justify-content: space-around; 
+}
+.item {
+	list-style: none;
+	background-color: #36393F;
+}
+
+.item > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #36393F;
+}
+
+.item > a:hover {
+	color: #5964F2;
+	background-color: #36393F;
+}
+/*einde navigatie bar*/
+/*Titel stukje van de pagina*/
+#Categories-achtergrond {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/achtergrond2.gif);
+	align-items: center;
+}
+/*blokje zodat de titel niet tegen de navbar aanstaat*/
+#invisblokje {
+	padding: 10%;
+}
+/*De titel op de pagina*/
+#titel {
+	display: flex;
+	flex-direction: row;
+	background-color: #40444b;
+	padding: 2%;
+	border-style: solid;
+	border-color: #36393F;
+}
+/*tweede blokje om ruimte toe te voegen*/
+#invisblokje2 {
+	padding: 5%;
+}
+/* proporties van het logo*/
+.logo {
+	height: 50px;
+}
+/* opmaak titel*/
+.titel2 {
+	background-color: #40444b;
+	border-style: solid;
+	border-color: #36393F;
+	border-collapse: bottom;
+}
+/*Dit is de css van het div waarin het tabel staan */
+#tafel {
+	width: 70%;
+	padding-bottom: 20%; 
+	text-align: center;
+	color:
+}
+/* css van het tabel */
+table {
+	background-color: #40444b;
+	border-style: solid;
+	border-color: #36393F;
+	width: 100%;
+
+}
+/* css van item in het tabel */
+th {
+	vertical-align: middle;
+	padding: 5%;
+	border-style: solid;
+	border-color: #36393F;
+}
+.item2 {
+	background-color: #40444b;
+}
+/* voegt de animatie toe voor de links */
+.item2 > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #40444b;
+}
+
+.item2 > a:hover {
+	color: #5964F2;
+	background-color: #40444b;
+}
