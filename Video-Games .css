@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	color: white;
+}
+/*Alle onderdelen van de navigatie bar*/
+.navbar { 
+	display:flex;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #36393F;
+	justify-content: space-around; 
+}
+.item {
+	list-style: none;
+	background-color: #36393F;
+}
+
+.item > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #36393F;
+}
+
+.item > a:hover {
+	color: #5964F2;
+	background-color: #36393F;
+}
+/*einde navigatie bar*/
+/*Titel stukje van de pagina*/
+#Categories-achtergrond {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/achtergrond2.gif);
+	align-items: center;
+}
+/*blokje zodat de titel niet tegen de navbar aanstaat*/
+#invisblokje {
+	padding: 15%;
+}
+/*Dit is de css van het div waarin het Alles staat*/
+
+#tafel {
+	display:flex ;
+	flex-direction: vertical-align;
+}
+input[type=text] {
+  padding: 0.5%;
+  border: none;
+  margin-top: 0.25%;
+  margin-right: 0.5%;
+  font-size: 0.51%;
+}
+
+.item2 {
+	background-color: #40444b;
+	margin: 10%;
+}
+/* css van het tabel */
+ul {
+	background-color: #40444b;
+	border-style: solid;
+	border-color: #36393F;
+	width: 100%;
+
+}
+/* css van item in het tabel */
+th {
+	vertical-align: middle;
+	padding: 5%;
+	border-style: solid;
+	border-color: #36393F;
+}
+.item2 {
+	background-color: #40444b;
+}
