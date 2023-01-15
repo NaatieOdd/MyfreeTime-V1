@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+	
+<html>
+	<head>
+		<meta charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MyFreeTime</title>
+		<!--made by Nathan Odding-->
+	</head>
+
+	<body>
+	
+		<p> 
+		Welcome to the "Project Paas Ei" page here is a click speed test. <br>
+		Go try and do your best!
+		</p>
+		
+		
+		<div id="game">
+			<p id="message">Click the button to start the game</p>
+			<button id="start-button">Start</button>
+			<p id="score">Score: 0</p>
+		</div>
+	</body>
+</html>
+
+<script>
+	const startButton = document.getElementById("start-button");
+	const message = document.getElementById("message");
+	const score = document.getElementById("score");
+	let currentScore = 0;
+
+	startButton.addEventListener("click", () => {
+	message.textContent = "Click the button as many times as you can in 10 seconds!";
+	startButton.style.display = "click";
+  
+	setTimeout(() => {
+			message.textContent = "Time's up! Your final score is: " + currentScore;
+		}, 10000);
+	});
+
+	startButton.addEventListener("click", () => {
+		currentScore++;
+		score.textContent = "Score: " + currentScore;
+	});
+</script>
