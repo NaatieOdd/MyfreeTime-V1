@@ -1,0 +1,135 @@
+/*Dit geeft de standaarden aan van de hele site*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+/*Achtergrond van de body aangepast en de text kleur*/
+body { 
+	background-color: #40444b;
+	color: white;
+}
+/*Alle onderdelen van de navigatie bar*/
+.logo {
+	height: 50px;
+
+}
+
+.navbar { 
+	display:flex;
+	width: 100%;
+	height: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #36393F;
+	justify-content: space-around; 
+}
+
+.item {
+	list-style: none;
+	background-color: #36393F;
+}
+
+.item > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #36393F;
+}
+
+.item > a:hover {
+	color: #5964F2;
+	background-color: #36393F;
+}
+
+/*achtergrond voor achter de tekst*/
+#supergrond {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/achtergrond1.gif);
+	align-items: center;
+}
+/*blokje zodat de titel niet tegen de navbar aanstaat*/
+#invisblokje {
+	padding: 10%;
+}
+/*De titel op de home pagina*/
+#titel {
+	display: flex;
+	flex-direction: row;
+	background-color: #40444b;
+	padding: 2%;
+	border-style: solid;
+	border-color: #36393F;
+}
+/*tweede blokje om ruimte toe te voegen*/
+#invisblokje2 {
+	padding: 5%;
+}
+/*De opmaak van de tekst*/
+#tekst {
+	background-color: #40444b;
+	border-style: solid;
+	border-color: #36393F;
+	padding: 5%;
+}
+/*Link in de tekst + animatie voor die link*/
+
+#tekst > p > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #40444b;
+}
+
+#tekst > p > a:hover {
+	color: #5964F2;
+	background-color: #40444b;
+}
+
+/* Dropdown knopje */
+.dropbtn {
+  background-color: #40444b;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border-color: #36393F;
+  border-style: solid;
+}
+
+/*dropdown menutje */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown menutje zn spullen */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #40444b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* opties in the categories tab */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* verander de kleur van de links */
+.dropdown-content a:hover {background-color: #36393F;}
+
+/* menutje kunnen laten zien */
+.dropdown:hover .dropdown-content {display: block;}
+
+ol { 
+	margin: 4%;
+}
+
+/*achtergrond veranderd als je dr op hovered*/
+.dropdown:hover .dropbtn {background-color: #40444b;}
