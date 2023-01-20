@@ -1,0 +1,107 @@
+/*Dit geeft de standaarden aan van de hele site*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+/*Achtergrond van de body aangepast en de text kleur*/
+body { 
+	background-color: #40444b;
+	color: white;
+}
+/*Alle onderdelen van de navigatie bar*/
+.logo {
+	height: 50px;
+
+}
+
+.navbar { 
+	display:flex;
+	width: 100%;
+	height: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #36393F;
+	justify-content: space-around; 
+}
+
+.item {
+	list-style: none;
+	background-color: #36393F;
+}
+
+.item > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #36393F;
+}
+
+.item > a:hover {
+	color: #5964F2;
+	background-color: #36393F;
+}
+
+/*achtergrond voor achter de tekst*/
+#supergrond {
+	display: flex;
+	flex-direction: column;
+	background-image: url(images/achtergrond1.gif);
+	align-items: center;
+}
+/*blokje zodat de titel niet tegen de navbar aanstaat*/
+#invisblokje {
+	padding: 10%;
+}
+/*De titel op de home pagina*/
+#titel {
+	display: flex;
+	flex-direction: row;
+	background-color: #40444b;
+	padding: 2%;
+	border-style: solid;
+	border-color: #36393F;
+}
+/*tweede blokje om ruimte toe te voegen*/
+#invisblokje2 {
+	padding: 5%;
+}
+/*De opmaak van de tekst*/
+#tekst {
+	background-color: #40444b;
+	border-style: solid;
+	border-color: #36393F;
+	padding: 5%;
+}
+/*Link in de tekst + animatie voor die link*/
+
+#tekst > p > a {
+	Text-decoration: none;
+	color: white;
+	transition: all 0.5s ease 0s;
+	background-color: #40444b;
+}
+
+#tekst > p > a:hover {
+	color: #5964F2;
+	background-color: #40444b;
+}
+
+.profilepic {
+	height: 20%;
+	width: 20%;
+}
+
+table {
+	border: solid;
+	border-color: #36393F;
+	padding: 2%;
+}
+
+tr {
+	margin: 2%;
+}
+
+th {
+	padding: 2%;
+}

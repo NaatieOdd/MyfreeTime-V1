@@ -4,7 +4,7 @@
 	<head>
 		<meta charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="Menubalk.css"> 
+		<link rel="stylesheet" href="Profile.css"> 
 		<title>MyFreeTime</title>
 		<!--made by Nathan Odding-->
 	</head>
@@ -27,21 +27,31 @@
 			
 			<div id="tekst">
 				<h1>Preview profile page</h1>
-				<p><form action="" method="post">
-					<label for="accname">Enter account name:</label>
-					<input type="text" name="accname" id="accname">
+				<p>
+					<img class="profilepic" src="images/profilepic.png"alt="profilepic"</a>
+					Welcome to "account name" 's page. This is what a profile might someday look like.
+					You can expect the top to say the users name instead of preview profile page.
+					And a user might have a longer about me section than this preview version has at the moment.
+					And a person will probably also have different favorites than this example one does. 
 					<br>
-					<input type="submit" name="submit" value="submit">
-					</form>
-					<?php
-						if(isset($_POST['submit'])) {
-						$accountname = trim($_POST['accname']);
-        
-
-						echo "<p>" . $accountname . "</p>";
-						}
-					?>
 				</p>
+				<table>
+					<tr>
+						<th>Categories</th>
+						<th>Favorite item</th>
+					</tr>
+					<tr>
+						<th>Film</th>
+						<th><a href="example-animated-series.html">Bleach</a></th>
+					</tr>
+					<tr>
+						<th>Games</th>
+						<th><a href="example.html">Mass effect</a></th>
+					</tr>
+					<tr>
+						<th>Literature</th>
+						<th><a href="example-fiction.html">Fall of Gondolin</a></th>
+				</table>
 			</div>
 			<div id="invisblokje"></div>
 		</div>
