@@ -14,11 +14,10 @@
 		<div class="navbar">
 			<div class="item"><a href="Categories.html">Categories</a></div>
 			<div class="item"><a href="Trending-main.html">Trending</a></div>
-			<div class="item"><a href="Profile.php">Profile</a></div>
+			<div class="item"><a href="index.html">Home</a></div>
 		</div>
 		<!-- dit is de inhoud van de pagina (dus de titel en de tekst) -->
 		<div id="supergrond">
-			<div id="invisblokje"></div>
 			<div id="titel">
 				<img class="logo" src="images/logo.png"alt="Logo"></a>
 				<h1><b>MyFreeTime</b></h1>
@@ -27,15 +26,24 @@
 			<div id="invisblokje2"</div>
 			
 			<div id="tekst">
-				<h1>About us</h1>
-				<p>Hello my name is Nathan, and I'm making this website as part of an school asignment.</p>
-				   My goal with making this website is: adding a way for people to track what kind of entertainment they have consumed.<br>
-				   This would include but not limited to: Video-Games, Books, Series, Movies, Music, Etc. <br>
-				   Aswell as being able to give a rating to each of those.<br>
-				   We will also try to provide Trending page with a top 50 based on user reviews.<br>
-				   Through this list you would be able to find what the most popular entertainment items are aswell as compare them<a href="ProjectPaasei.html">.</a><br>
+				<h1>Preview profile page</h1>
+				<p><form action="" method="post">
+					<label for="accname">Enter account name:</label>
+					<input type="text" name="accname" id="accname">
+					<br>
+					<input type="submit" name="submit" value="submit">
+					</form>
+					<?php
+						if(isset($_POST['submit'])) {
+						$accountname = trim($_POST['accname']);
+        
+
+						echo "<p> Welcome to" . $accountname . "'s page</p>";
+						}
+					?>
 				</p>
 			</div>
+			<div id="invisblokje"></div>
 		</div>
 		
 	</body>
